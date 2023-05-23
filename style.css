@@ -1,0 +1,154 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background: linear-gradient(#1a05f980, rgba(0, 0, 0, 1)), url("images/192-1920x1080.jpg");
+    min-height: 700px;
+    
+}
+.center{
+    margin-top: 200px;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.center p{
+    font-size: 20px;
+}
+
+
+.content{
+    color: #fff;
+    height: 350px;
+    position: relative;
+    bottom: 100px;
+}
+#section3{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.contain{
+    color: #fff;
+    padding: 20px;
+}
+
+.contain{
+   
+    height: 350px;
+    margin-top: 80px;
+}
+.card-body img{
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 50px;
+}
+
+.card-body h6{
+    color: white;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.section5{
+    color: white;
+    background:linear-gradient(#01051580, rgba(0, 0, 0, 0.8)), url("images/192-1920x1080.jpg");
+    min-height: 700px;
+
+}
+
+.part1{
+    background-color: blue;
+    height: 350px;
+    
+}
+.part2{
+    background-color: gray;
+    height:300px;
+
+}
+.section6{
+    background-color: aqua;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.section6 i{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+
+.section8{
+    background:linear-gradient(#3951af80, rgba(0, 0, 0, 0.8)), url("images/192-1920x1080.jpg");
+    min-height: 700px;
+    color: #fff;
+}
+.barry{
+    padding-top: 150px;
+}
+.contain img{
+    position: relative;
+    bottom: 65px;
+}
+.BA{
+    gap: 80px;
+}
+.texte{
+    background:linear-gradient(#3d6b9880, rgba(11, 9, 172, 0.8)), url("images/192-1920x1080.jpg");
+
+}
+.texte1{
+    background:linear-gradient(#7e101580, rgba(0, 0, 0, 1)), url("images/192-1920x1080.jpg");
+
+}
+.texte2{
+    background:linear-gradient(#10731c80, rgba(0, 0, 0, 1)), url("images/192-1920x1080.jpg");
+
+}
+.div2 li{
+margin-bottom: 20px;
+}
+
+#section3 img{
+    position: relative;
+    width: 45px;
+    top: -50px;
+}
+
+@media screen and (max-width: 768px) {
+    .part1{
+        background-color: blue;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .part2{
+        background-color: gainsboro;
+        height:400px;
+        margin-bottom: 30px;
+        
+        justify-content: center;
+
+
+}
+.parties{
+    gap: 30px;
+}
+
+}
+
+
